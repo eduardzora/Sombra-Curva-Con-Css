@@ -1,0 +1,26 @@
+
+body{
+	display: block;
+	margin: 80px;
+}
+.sombreado_uno{
+	background:#E5DD97;
+	height: 200px;
+	margin:60px auto;
+	position: relative;
+	width: 400px;
+	text-align: center;
+}
+
+.sombreado_uno:after{
+                    content:"";
+                    box-shadow: 0 5px 5px 2px #000;
+                    border-radius: 50%;
+                    bottom: 5px;
+                    height: 5px;
+                    left: 50%;
+                    margin-left: -190px;
+                    position: absolute;
+                    width: 380px;
+                    z-index: -1;
+               }
